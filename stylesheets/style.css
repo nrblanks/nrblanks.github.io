@@ -1,0 +1,15 @@
+/*stylesheet created by nick blanks*/
+/* www.nicholasblanks.com */
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Helvetica;
+	}
+
+.nickImage{
+	width:300px;
+	height:auto;
+	text-align:center;
+	margin: 10px auto;
+}
