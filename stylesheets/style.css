@@ -38,9 +38,7 @@ a{
 }
 
 #ortiz{
-	width:100px;
-	height:auto;
-	border:3px;
-	text-align:center;
+	border:10px solid #021a40;
+	width:100%;
 
 }
