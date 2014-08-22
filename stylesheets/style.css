@@ -21,7 +21,7 @@ body{
 	background:#C2CCC9;
 	text-align:center;
 	margin-top:5%;
-	-webkit-transform: rotate(30deg);
+	-webkit-transform: rotate(5deg);
     transform: rotate(5deg); 
 }
 
