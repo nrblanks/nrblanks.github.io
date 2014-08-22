@@ -36,3 +36,11 @@ body{
 a{
 	text-decoration:none;
 }
+
+#ortiz{
+	width:100px;
+	height:auto;
+	border:3px;
+	text-align:center;
+
+}
