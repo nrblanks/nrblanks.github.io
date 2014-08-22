@@ -2,7 +2,7 @@
 /* www.nicholasblanks.com */
 
 body{
-	margin:10px;
+	margin:0px;
 	padding:0px;
 	font-family:Helvetica, sans-serif;
 	background:#D6D1F0;
@@ -15,4 +15,24 @@ body{
 	margin: 10px auto;
 }
 
-.title
+.square{
+	width:100%;
+	height:40px;
+	background:#C2CCC9;
+	text-align:center;
+	margin-top:20px;
+	-webkit-transform: rotate(30deg);
+    transform: rotate(5deg); 
+}
+
+.title{
+	text-align:center;
+	padding:0px;
+	font-size:30px;
+	font-family:Impact;
+	vertical-align:middle;
+}
+
+a{
+	text-decoration:none;
+}
