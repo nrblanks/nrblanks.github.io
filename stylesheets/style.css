@@ -20,7 +20,7 @@ body{
 	height:40px;
 	background:#C2CCC9;
 	text-align:center;
-	margin-top:20px;
+	margin-top:5%;
 	-webkit-transform: rotate(30deg);
     transform: rotate(5deg); 
 }
