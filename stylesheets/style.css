@@ -21,8 +21,8 @@ body{
 	background:#C2CCC9;
 	text-align:center;
 	margin-top:10%;
-	-webkit-transform: rotate(5deg);
-    transform: rotate(5deg); 
+	-webkit-transform: rotate(0deg);
+    transform: rotate(0deg); 
 }
 
 .title{
