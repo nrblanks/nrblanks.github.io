@@ -3,6 +3,26 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Run For Me</title>
+    <script type="text/javascript">
+
+        function saveEdits() {
+
+//get the editable element
+            var editElem = document.getElementById("edit");
+
+//get the edited element content
+            var userVersion = editElem.innerHTML;
+
+//save the content to local storage
+            localStorage.userEdits = userVersion;
+
+//write a confirmation to the user
+            document.getElementById("update").innerHTML="Edits saved!";
+
+        }
+
+    </script>
+
 </head>
 <body>
 
@@ -11,6 +31,9 @@
 <div id="edit" contenteditable="true">
     Here is the edit test
 </div>
+
+<input type="button" value="save my edits" onclick="saveEdits()"/>
+<div id="update"> - Edit the text and click to save for next time</div>
 
 </body>
 </html>
