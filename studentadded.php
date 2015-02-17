@@ -89,7 +89,7 @@ echo "$missing<br />";
 
 ?>
 
-<form action="http://localhost/studentadded.php" method="post">
+<form action="./studentadded.php" method="post">
 
 	<b>Add a New Student</b>
 
