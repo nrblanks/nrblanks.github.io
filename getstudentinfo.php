@@ -3,7 +3,7 @@
 require_once('./mysqli_connect.php');
 
 // Create a query for the database
-$query = "SELECT first_name, last_name FROM students";
+$query = "SELECT first_name, last_name FROM student";
 
 // Get a response from the database by sending the connection
 // and the query
@@ -16,9 +16,7 @@ if($response){
 cellspacing="5" cellpadding="8">
 
 <tr><td align="left"><b>First Name</b></td>
-<td align="left"><b>Last Name</b></td>
-
-</tr>';
+<td align="left"><b>Last Name</b></td>';
 
 // mysqli_fetch_array will return a row of data from the query
 // until no further data is available
@@ -26,8 +24,7 @@ cellspacing="5" cellpadding="8">
 
         echo '<tr><td align="left">' .
             $row['first_name'] . '</td><td align="left">' .
-            $row['last_name'] . '</td><td align="left">' .
-;
+            $row['last_name'] . '</td><td align="left">';
 
         echo '</tr>';
     }
